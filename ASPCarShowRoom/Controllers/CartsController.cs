@@ -93,7 +93,7 @@ namespace ASPCarShowRoom.Controllers
                 return NotFound();
             }
             ViewData["CarId"] = new SelectList(_context.Cars, "Id", "CarModel", cart.CarId);
-            //ViewData["ClientId"] = new SelectList(_context.Users, "Id", "Id", cart.ClientId);
+            ViewData["ClientId"] = new SelectList(_context.Users, "Id", "Id", cart.ClientId);
             return View(cart);
         }
 
@@ -131,7 +131,7 @@ namespace ASPCarShowRoom.Controllers
                 return RedirectToAction(nameof(Index));
             }
             ViewData["CarId"] = new SelectList(_context.Cars, "Id", "CarModel", cart.CarId);
-            //ViewData["ClientId"] = new SelectList(_context.Users, "Id", "Id", cart.ClientId);
+            ViewData["ClientId"] = new SelectList(_context.Users, "Id", "Id", cart.ClientId);
             return View(cart);
         }
 
