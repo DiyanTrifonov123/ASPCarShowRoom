@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9C5561-3D1E-4825-8B60-4B3A865D4D5F}|ASPCarShowRoom\\ASPCarShowRoom.csproj|c:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\aspcarshowroom\\aspcarshowroom\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9C5561-3D1E-4825-8B60-4B3A865D4D5F}|ASPCarShowRoom\\ASPCarShowRoom.csproj|solutionrelative:aspcarshowroom\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9C5561-3D1E-4825-8B60-4B3A865D4D5F}|ASPCarShowRoom\\ASPCarShowRoom.csproj|c:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\aspcarshowroom\\aspcarshowroom\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B9C5561-3D1E-4825-8B60-4B3A865D4D5F}|ASPCarShowRoom\\ASPCarShowRoom.csproj|solutionrelative:aspcarshowroom\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\ASPCarShowRoom\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "ASPCarShowRoom\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\ASPCarShowRoom\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "ASPCarShowRoom\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T07:57:59.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\ASPCarShowRoom\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "ASPCarShowRoom\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\ASPCarShowRoom\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "ASPCarShowRoom\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADMAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T07:57:58.347Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
