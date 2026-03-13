@@ -67,9 +67,10 @@ namespace ASPCarShowRoom.Controllers
         public async Task<IActionResult> Create([Bind("CarId,Message")] Cart cart)
         {
             cart.RegisterOn = DateTime.Now;
+            cart.ClientId = _userManager.GetUserId(User);
+
             if (ModelState.IsValid)
             {
-                cart.ClientId = _userManager.GetUserId(User);
                 _context.Add(cart);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -102,9 +103,11 @@ namespace ASPCarShowRoom.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("CarId,Message")] Cart cart)
+        public async Task<IActionResult> Edit(int id, [Bind("ClientId,CarId,Message")] Cart cart)
         {
             cart.RegisterOn = DateTime.Now;
+            cart.ClientId = _userManager.GetUserId(User);
+
             if (id != cart.Id)
             {
                 return NotFound();

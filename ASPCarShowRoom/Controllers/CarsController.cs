@@ -96,7 +96,7 @@ namespace ASPCarShowRoom.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("CarModel,Description,Year,EquipmentId,IsNew,FuelTypeId,Power,Acceleration,Image,Price")] Car car)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,CarModel,Description,Year,EquipmentId,IsNew,FuelTypeId,Power,Acceleration,Image,Price")] Car car)
         {
             car.RegisterOn = DateTime.Now;
             if (id != car.Id)

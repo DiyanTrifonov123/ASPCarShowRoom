@@ -87,7 +87,7 @@ namespace ASPCarShowRoom.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Name")] FuelType fuelType)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name")] FuelType fuelType)
         {
             fuelType.RegisterOn = DateTime.Now;
             if (id != fuelType.Id)
