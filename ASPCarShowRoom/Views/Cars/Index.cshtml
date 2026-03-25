@@ -1,95 +1,37 @@
-﻿@model IEnumerable<ASPCarShowRoom.Models.Car>
-
-@{
-    ViewData["Title"] = "Index";
-}
-
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
+﻿<h1 class="text-center">Автомобили</h1>
+@if (User.IsInRole("Admin"))
+{
+    <p class="text-center">
+    <a asp-action="Create" class="create-btn">Добави автомобил</a>
 </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.CarModel)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Year)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Equipments)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IsNew)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FuelTypes)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Power)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Acceleration)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Image)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Price)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.RegisterOn)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.CarModel)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Year)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Equipments.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IsNew)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.FuelTypes.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Power)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Acceleration)
-            </td>
-            <td>
-                    <img src="@Html.DisplayFor(modelItem => item.Image)" width="100px" />
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.RegisterOn)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
 }
-    </tbody>
-</table>
+
+<div class="cars-container">
+    @foreach (var item in Model)
+    {
+        <div class="car-card">
+            <img src="@item.Image" alt="@item.CarModel" />
+
+            <div class="car-content">
+                <h3>@item.CarModel (@item.Year)</h3>
+                <p><strong>Гориво:</strong> @item.FuelTypes.Name</p>
+                <p><strong>Мощност:</strong> @item.Power к.с.</p>
+                <p><strong>Ускорение:</strong> @item.Acceleration н.м.</p>
+                <p><strong>Оборудване:</strong> @item.Equipments.Name</p>
+
+                <div class="car-price">
+                    @item.Price лв.
+                </div>
+            </div>
+
+            <div class="car-actions">
+                @if (User.IsInRole("Admin"))
+                {
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="edit">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="delete">Delete</a>
+                }
+                <a asp-action="Details" asp-route-id="@item.Id" class="details">Details</a>
+            </div>
+        </div>
+    }
+</div>

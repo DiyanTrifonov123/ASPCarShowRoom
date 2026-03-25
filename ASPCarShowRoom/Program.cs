@@ -19,7 +19,6 @@ builder.Services.AddDefaultIdentity<Client>(options => options.SignIn.RequireCon
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 builder.Services.AddControllers(op => op.SuppressImplicitRequiredAttributeForNonNullableReferenceTypes = true);
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

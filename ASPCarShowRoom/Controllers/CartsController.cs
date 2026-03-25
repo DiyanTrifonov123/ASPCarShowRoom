@@ -27,8 +27,17 @@ namespace ASPCarShowRoom.Controllers
         // GET: Carts
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Carts.Include(c => c.Cars).Include(c => c.Clients);
-            return View(await applicationDbContext.ToListAsync());
+            if (User.IsInRole("Admin"))
+            {
+                var applicationDbContext = _context.Carts.Include(c => c.Cars).Include(c => c.Clients);
+                return View(await applicationDbContext.ToListAsync());
+            }
+            else
+            {
+                var applicationDbContext = _context.Carts.Include(c => c.Cars).Include(c => c.Clients).Where(c => c.ClientId == _userManager.GetUserId(User));
+                return View(await applicationDbContext.ToListAsync());
+            }
+
         }
 
         // GET: Carts/Details/5
@@ -94,7 +103,7 @@ namespace ASPCarShowRoom.Controllers
                 return NotFound();
             }
             ViewData["CarId"] = new SelectList(_context.Cars, "Id", "CarModel", cart.CarId);
-            ViewData["ClientId"] = new SelectList(_context.Users, "Id", "Id", cart.ClientId);
+            //ViewData["ClientId"] = new SelectList(_context.Users, "Id", "UserName", cart.ClientId);
             return View(cart);
         }
 
@@ -134,7 +143,7 @@ namespace ASPCarShowRoom.Controllers
                 return RedirectToAction(nameof(Index));
             }
             ViewData["CarId"] = new SelectList(_context.Cars, "Id", "CarModel", cart.CarId);
-            ViewData["ClientId"] = new SelectList(_context.Users, "Id", "Id", cart.ClientId);
+            //ViewData["ClientId"] = new SelectList(_context.Users, "Id", "UserName", cart.ClientId);
             return View(cart);
         }
 

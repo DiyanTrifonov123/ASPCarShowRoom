@@ -203,10 +203,8 @@ C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compr
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
-C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\zk6ep4gzjf-b9sayid5wm.gz
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\s50md8c1f8-61n19gt1b8.gz
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\wrnk8mqp5m-xtxxf3hu2r.gz
-C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\s32n7g4jn5-bqjiyaj88i.gz
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\9cthjzz1pt-c2jlpeoesf.gz
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\j63via7deg-erw9l3u2r3.gz
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\5ull3izyj2-aexeepp0ev.gz
@@ -214,7 +212,6 @@ C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compr
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\xjvui68iy9-ausgxo2sd3.gz
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\ftmjj15n7i-k8d9w2qqmf.gz
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\78mjh7hqcv-cosvhxvwiu.gz
-C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\jo4fzz7nk1-ub07r2b239.gz
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\f15nfkae6l-fvhpjtyr6v.gz
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\rzyae1toco-b7pk76d08c.gz
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\2mmfozqyno-fsbi9cje9m.gz
@@ -222,7 +219,6 @@ C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compr
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\omqoriksr2-ee0r1s7dh0.gz
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\s4hrlj4jqc-dxx9fxp4il.gz
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\5t6wlt8cdn-jd9uben2k1.gz
-C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\wdh99omvlj-khv3u5hwcm.gz
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\pk3jgw57xe-r4e9w2rdcm.gz
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\gmmeraffs1-lcd1t2u6c8.gz
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\tlbjcgk734-c2oey78nd0.gz
@@ -230,7 +226,6 @@ C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compr
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\dhhyibzm4a-j5mq2jizvt.gz
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\klliud9hk0-06098lyss8.gz
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\sgb4j2u19j-nvvlpmu67g.gz
-C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\2p9o57vy4p-s35ty4nyc5.gz
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\fkb7ywtq2t-pj5nd1wqec.gz
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\wwlqf1x2rm-46ein0sx1k.gz
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\ypsa444t0s-v0zj4ognzu.gz
@@ -443,3 +438,8 @@ C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\bin\Debug\net9.0\runti
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\s32n7g4jn5-ns6d6on29h.gz
+C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\jo4fzz7nk1-remdhbfr6a.gz
+C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\wdh99omvlj-4s95mj6lm0.gz
+C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\2p9o57vy4p-ys8zrhnlf2.gz
+C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\obj\Debug\net9.0\compressed\zk6ep4gzjf-nsoykgur8e.gz

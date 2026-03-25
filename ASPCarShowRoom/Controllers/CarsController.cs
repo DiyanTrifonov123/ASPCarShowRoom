@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ASPCarShowRoom.Data;
 using ASPCarShowRoom.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ASPCarShowRoom.Controllers
 {
@@ -148,7 +149,7 @@ namespace ASPCarShowRoom.Controllers
 
             return View(car);
         }
-
+        
         // POST: Cars/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]

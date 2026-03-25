@@ -35,45 +35,34 @@ namespace ASPShopBag.Services
         }
         public static async Task SeedRolesAsync(RoleManager<IdentityRole> roleManager)
         {
-            //foreach (var role in Enum.GetValues(Roles))
-            //{
-            //                    var roleExist = await roleManager.RoleExistsAsync(role); 
-            //    if (!roleExist)
-            //    { }
-            //}
-           
-                //Seed Roles
-                await roleManager.CreateAsync(new IdentityRole("Admin"));
-                await roleManager.CreateAsync(new IdentityRole("Client"));
-                await roleManager.CreateAsync(new IdentityRole("Guest"));
-            }
+            await roleManager.CreateAsync(new IdentityRole("Admin"));
+            await roleManager.CreateAsync(new IdentityRole("Client"));
+            await roleManager.CreateAsync(new IdentityRole("Guest"));
+        }
 
-            public static async Task SeedSuperAdminAsync(UserManager<Client> userManager)
+        public static async Task SeedSuperAdminAsync(UserManager<Client> userManager)
+        {
+            var defaultUser = new Client
             {
-                //Seed Default User
-                var defaultUser = new Client
-                {
-                    UserName = "superadmin",
-                    Email = "superadmin@gmail.com",
-                    FirstName = "Diyan",
-                    LastName = "Trifonov",
-                    PhoneNumber = "0899999999",
-                    Address = "Sopot",
-                    EmailConfirmed = true,
-                    PhoneNumberConfirmed = true
-                };
+                UserName = "superadmin",
+                Email = "superadmin@gmail.com",
+                FirstName = "Diyan",
+                LastName = "Trifonov",
+                PhoneNumber = "0899999999",
+                Address = "Sopot",
+                EmailConfirmed = true,
+                PhoneNumberConfirmed = true
+            };
 
-                var user = await userManager.FindByEmailAsync(defaultUser.Email);
-                if (user == null)
+            var user = await userManager.FindByEmailAsync(defaultUser.Email);
+            if (user == null)
+            {
+                var result = await userManager.CreateAsync(defaultUser, "123!@#Qwe");
+                if (result.Succeeded)
                 {
-                    var result = await userManager.CreateAsync(defaultUser, "123!@#Qwe");
-                    if (result.Succeeded)
-                    {
-                        await userManager.AddToRoleAsync(defaultUser, "Admin");
-                        //await userManager.AddToRoleAsync(defaultUser, Roles.Guest.ToString());
-                        //await userManager.AddToRoleAsync(defaultUser, Roles.User.ToString());                    
-                    }
+                    await userManager.AddToRoleAsync(defaultUser, "Admin");
                 }
             }
         }
     }
+}
