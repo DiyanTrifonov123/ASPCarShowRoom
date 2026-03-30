@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5B9C5561-3D1E-4825-8B60-4B3A865D4D5F}|ASPCarShowRoom\\ASPCarShowRoom.csproj|c:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\aspcarshowroom\\aspcarshowroom\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B9C5561-3D1E-4825-8B60-4B3A865D4D5F}|ASPCarShowRoom\\ASPCarShowRoom.csproj|solutionrelative:aspcarshowroom\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5B9C5561-3D1E-4825-8B60-4B3A865D4D5F}|ASPCarShowRoom\\ASPCarShowRoom.csproj|c:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\aspcarshowroom\\aspcarshowroom\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5B9C5561-3D1E-4825-8B60-4B3A865D4D5F}|ASPCarShowRoom\\ASPCarShowRoom.csproj|solutionrelative:aspcarshowroom\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B9C5561-3D1E-4825-8B60-4B3A865D4D5F}|ASPCarShowRoom\\ASPCarShowRoom.csproj|c:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\aspcarshowroom\\aspcarshowroom\\views\\cars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5B9C5561-3D1E-4825-8B60-4B3A865D4D5F}|ASPCarShowRoom\\ASPCarShowRoom.csproj|solutionrelative:aspcarshowroom\\views\\cars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B9C5561-3D1E-4825-8B60-4B3A865D4D5F}|ASPCarShowRoom\\ASPCarShowRoom.csproj|c:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\aspcarshowroom\\aspcarshowroom\\views\\cars\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5B9C5561-3D1E-4825-8B60-4B3A865D4D5F}|ASPCarShowRoom\\ASPCarShowRoom.csproj|solutionrelative:aspcarshowroom\\views\\cars\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B9C5561-3D1E-4825-8B60-4B3A865D4D5F}|ASPCarShowRoom\\ASPCarShowRoom.csproj|c:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\aspcarshowroom\\aspcarshowroom\\views\\cars\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5B9C5561-3D1E-4825-8B60-4B3A865D4D5F}|ASPCarShowRoom\\ASPCarShowRoom.csproj|solutionrelative:aspcarshowroom\\views\\cars\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B9C5561-3D1E-4825-8B60-4B3A865D4D5F}|ASPCarShowRoom\\ASPCarShowRoom.csproj|c:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\aspcarshowroom\\aspcarshowroom\\views\\cars\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5B9C5561-3D1E-4825-8B60-4B3A865D4D5F}|ASPCarShowRoom\\ASPCarShowRoom.csproj|solutionrelative:aspcarshowroom\\views\\cars\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B9C5561-3D1E-4825-8B60-4B3A865D4D5F}|ASPCarShowRoom\\ASPCarShowRoom.csproj|c:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\aspcarshowroom\\aspcarshowroom\\views\\cars\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5B9C5561-3D1E-4825-8B60-4B3A865D4D5F}|ASPCarShowRoom\\ASPCarShowRoom.csproj|solutionrelative:aspcarshowroom\\views\\cars\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,79 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\ASPCarShowRoom\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ASPCarShowRoom\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\ASPCarShowRoom\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ASPCarShowRoom\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-24T09:58:29.968Z",
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\ASPCarShowRoom\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ASPCarShowRoom\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\ASPCarShowRoom\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ASPCarShowRoom\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-25T10:54:34.288Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\ASPCarShowRoom\\Views\\Cars\\Index.cshtml",
-              "RelativeDocumentMoniker": "ASPCarShowRoom\\Views\\Cars\\Index.cshtml",
-              "ToolTip": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\ASPCarShowRoom\\Views\\Cars\\Index.cshtml",
-              "RelativeToolTip": "ASPCarShowRoom\\Views\\Cars\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\ASPCarShowRoom\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ASPCarShowRoom\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\ASPCarShowRoom\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ASPCarShowRoom\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-24T09:57:18.291Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\ASPCarShowRoom\\Views\\Cars\\Edit.cshtml",
-              "RelativeDocumentMoniker": "ASPCarShowRoom\\Views\\Cars\\Edit.cshtml",
-              "ToolTip": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\ASPCarShowRoom\\Views\\Cars\\Edit.cshtml",
-              "RelativeToolTip": "ASPCarShowRoom\\Views\\Cars\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-24T09:51:52.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\ASPCarShowRoom\\Views\\Cars\\Details.cshtml",
-              "RelativeDocumentMoniker": "ASPCarShowRoom\\Views\\Cars\\Details.cshtml",
-              "ToolTip": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\ASPCarShowRoom\\Views\\Cars\\Details.cshtml",
-              "RelativeToolTip": "ASPCarShowRoom\\Views\\Cars\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-24T09:51:51.418Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\ASPCarShowRoom\\Views\\Cars\\Delete.cshtml",
-              "RelativeDocumentMoniker": "ASPCarShowRoom\\Views\\Cars\\Delete.cshtml",
-              "ToolTip": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\ASPCarShowRoom\\Views\\Cars\\Delete.cshtml",
-              "RelativeToolTip": "ASPCarShowRoom\\Views\\Cars\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-24T09:51:50.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\ASPCarShowRoom\\Views\\Cars\\Create.cshtml",
-              "RelativeDocumentMoniker": "ASPCarShowRoom\\Views\\Cars\\Create.cshtml",
-              "ToolTip": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\ASPCarShowRoom\\Views\\Cars\\Create.cshtml",
-              "RelativeToolTip": "ASPCarShowRoom\\Views\\Cars\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-24T09:51:50.06Z",
+              "WhenOpened": "2026-03-24T09:58:29.968Z",
               "EditorCaption": ""
             }
           ]
