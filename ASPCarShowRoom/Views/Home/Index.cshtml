@@ -3,13 +3,18 @@
 }
 
 <div class="text-center">
-    <div class="box">
-        <img class="vwLove" src="/images/img1.png" alt="Нови автомобили">
-        <p>Нови автомобили</p>
-    </div>
+    <a asp-controller="Cars" asp-action="Index">
 
-    <div class="box">
-        <img class="vwLove" src="/images/img1.png" alt="Употребявани автомобили">
-        <p>Употребявани автомобили</p>
-    </div>
+        <div class="box">
+            <img class="vwLove" src="/imgs/img2.jpg" alt="Нови автомобили">
+            <p>Нови автомобили</p>
+        </div>
+    </a>
+
+    <a asp-controller="Cars" asp-action="Index">
+        <div class="box">
+            <img class="vwLove" src="/imgs/golfa.jpg" alt="Употребявани автомобили">
+            <p>Употребявани автомобили</p>
+        </div>
+    </a>
 </div>

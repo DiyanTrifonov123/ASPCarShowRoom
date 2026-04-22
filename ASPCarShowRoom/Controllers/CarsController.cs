@@ -21,9 +21,12 @@ namespace ASPCarShowRoom.Controllers
         }
 
         // GET: Cars
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(bool isNew)
         {
-            var applicationDbContext = _context.Cars.Include(c => c.Equipments).Include(c => c.FuelTypes);
+            var applicationDbContext = _context.Cars
+                .Include(c => c.Equipments)
+                .Include(c => c.FuelTypes)
+                .Where(c=>c.IsNew == isNew);
             return View(await applicationDbContext.ToListAsync());
         }
 

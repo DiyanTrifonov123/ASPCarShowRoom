@@ -68,8 +68,26 @@ namespace ASPCarShowRoom.Controllers
             return View();
         }
 
-        // POST: Carts/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> CreateId(int carId)
+        {
+            Cart cart = new Cart();
+            cart.CarId = carId;
+            cart.Message = "";
+            cart.RegisterOn = DateTime.Now;
+            cart.ClientId = _userManager.GetUserId(User);
+
+            if (ModelState.IsValid)
+            {
+                _context.Carts.Add(cart);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            ViewData["CarId"] = new SelectList(_context.Cars, "Id", "CarModel", cart.CarId);
+            //ViewData["ClientId"] = new SelectList(_context.Users, "Id", "Id", cart.ClientId);
+            return View(cart);
+        }
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -112,7 +130,7 @@ namespace ASPCarShowRoom.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ClientId,CarId,Message")] Cart cart)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,ClientId,CarId,Message")] Cart cart)
         {
             cart.RegisterOn = DateTime.Now;
             cart.ClientId = _userManager.GetUserId(User);

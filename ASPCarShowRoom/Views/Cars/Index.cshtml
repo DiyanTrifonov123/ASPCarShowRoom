@@ -30,6 +30,12 @@
                     <a asp-action="Edit" asp-route-id="@item.Id" class="edit">Edit</a>
                     <a asp-action="Delete" asp-route-id="@item.Id" class="delete">Delete</a>
                 }
+                <form asp-controller="Carts" asp-action="CreateId" asp-route-carId="@item.Id" method="post">
+                    <input type="hidden" name="carId" value="@item.Id" />
+                    <button type="submit" class="btn btn-primary">
+                        Поръчай
+                    </button>
+                </form>
                 <a asp-action="Details" asp-route-id="@item.Id" class="details">Details</a>
             </div>
         </div>

@@ -1,5 +1,10 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\imgs\golfa.jpg
+wwwroot\imgs\img1.png
+wwwroot\imgs\img11.jpg
+wwwroot\imgs\img2.jpg
+wwwroot\imgs\logo.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
