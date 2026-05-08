@@ -1,4 +1,3 @@
-wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\imgs\golfa.jpg
 wwwroot\imgs\img1.png
@@ -66,7 +65,7 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\wwwroot\css\site.css
+wwwroot\css\site.css
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\wwwroot\favicon.ico
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\wwwroot\js\site.js
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -128,3 +127,4 @@ C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\wwwroot\lib\jquery\dis
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\wwwroot\lib\jquery\LICENSE.txt
+C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\wwwroot\css\site.css

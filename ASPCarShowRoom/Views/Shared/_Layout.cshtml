@@ -1,70 +1,201 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="bg">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - ASPCarShowRoom</title>
+
+    <title>@ViewData["Title"] - Volkswagen Love</title>
+
     <script type="importmap"></script>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/ASPCarShowRoom.styles.css" asp-append-version="true" />
+
+    <link rel="stylesheet"
+          href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <link rel="stylesheet"
+          href="~/css/site.css"
+          asp-append-version="true" />
+
+    <link rel="stylesheet"
+          href="~/ASPCarShowRoom.styles.css"
+          asp-append-version="true" />
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 </head>
+
 <body>
-    <header>
-        <img src="/imgs/logo.png" alt="Лого" />
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Volkswagen Love</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+
+    <!-- =========================================
+         HEADER
+    ========================================== -->
+
+    <header class="main-header">
+
+        <nav class="navbar navbar-expand-lg custom-navbar">
+
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center"
+                   asp-area=""
+                   asp-controller="Home"
+                   asp-action="Index">
+
+                    <img src="/imgs/logo.png"
+                         alt="Volkswagen Logo"
+                         class="logo-img" />
+
+                    <span class="brand-text">
+                        Volkswagen Love
+                    </span>
+
+                </a>
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#mainNavbar">
+
                     <span class="navbar-toggler-icon"></span>
+
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+                <div class="collapse navbar-collapse"
+                     id="mainNavbar">
+                    <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Модели</a>
+                            <a class="nav-link"
+                               asp-controller="Home"
+                               asp-action="Index">
+
+                                Модели
+
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Cars" asp-action="Index" asp-route-isNew=@true>Нови автомобили</a>
+                            <a class="nav-link"
+                               asp-controller="Cars"
+                               asp-action="Index"
+                               asp-route-isNew=@true>
+
+                                Нови автомобили
+
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Cars" asp-action="Index" asp-route-isNew=@false>Употребявани автомобили</a>
+                            <a class="nav-link"
+                               asp-controller="Cars"
+                               asp-action="Index"
+                               asp-route-isNew=@false>
+
+                                Употребявани автомобили
+
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Carts" asp-action="Index">Поръчки</a>
+                            <a class="nav-link"
+                               asp-controller="Carts"
+                               asp-action="Index">
+
+                                Поръчки
+
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Cars" asp-action="Index">Светът на Volkswagen</a>
+                            <a class="nav-link"
+                               asp-controller="Cars"
+                               asp-action="Index">
+
+                                Светът на Volkswagen
+
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Контакти и сервиз</a>
+                            <a class="nav-link"
+                               asp-controller="Home"
+                               asp-action="Privacy">
+
+                                Контакти и сервиз
+
+                            </a>
                         </li>
                         @if (User.IsInRole("Admin"))
                         {
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Equipments" asp-action="Index">Оборудване</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="TypeEquipments" asp-action="Index">Вид оборудване</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="FuelTypes" asp-action="Index">Вид гориво</a>
+                            <li class="nav-item dropdown">
+
+                                <a class="nav-link dropdown-toggle"
+                                   href="#"
+                                   role="button"
+                                   data-bs-toggle="dropdown">
+                                    Админ панел
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item"
+                                           asp-controller="Equipments"
+                                           asp-action="Index">
+                                            Оборудване
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item"
+                                           asp-controller="TypeEquipments"
+                                           asp-action="Index">
+                                            Вид оборудване
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item"
+                                           asp-controller="FuelTypes"
+                                           asp-action="Index">
+                                            Вид гориво
+                                        </a>
+                                    </li>
+                                </ul>
                             </li>
                         }
                     </ul>
-                    <partial name="_LoginPartial" />
+                    <div class="login-partial">
+                        <partial name="_LoginPartial" />
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="content">
-        <main role="main" class="pb-3">
+
+    <div class="page-wrapper">
+
+        <main role="main"
+              class="main-content">
+
             @RenderBody()
+
         </main>
+
     </div>
 
-    <footer>
-        <p>&copy; Volkswagen Love</p>
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <h5>Volkswagen Love</h5>
+                <p>
+                    Официален showroom за Volkswagen автомобили
+                </p>
+                <div class="social-icons">
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+                <hr />
+                <p class="copyright">
+                    © 2026 Volkswagen Love.
+                    Всички права запазени.
+                </p>
+            </div>
+        </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
