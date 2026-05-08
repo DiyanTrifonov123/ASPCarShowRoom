@@ -1,8 +1,4 @@
-﻿/* =========================================
-   REGISTER PAGE
-========================================= */
-
-.register-container {
+﻿.register-container {
     min-height: 100vh;
     background: linear-gradient(135deg, #0d6efd, #0b3d91);
     display: flex;
@@ -31,10 +27,6 @@
     font-size: 16px;
 }
 
-/* =========================================
-   INPUTS
-========================================= */
-
 .custom-input {
     border-radius: 14px;
     border: 1px solid #cfe2ff;
@@ -47,10 +39,6 @@
         border-color: #0d6efd;
         box-shadow: 0 0 15px rgba(13, 110, 253, 0.2);
     }
-
-/* =========================================
-   BUTTON
-========================================= */
 
 .register-btn {
     background: linear-gradient(90deg, #0d6efd, #1e90ff);
@@ -68,27 +56,15 @@
         box-shadow: 0 10px 20px rgba(13, 110, 253, 0.3);
     }
 
-/* =========================================
-   VALIDATION
-========================================= */
-
 .text-danger {
     font-size: 14px;
 }
-
-/* =========================================
-   EXTERNAL LOGIN
-========================================= */
 
 .external-login button {
     height: 50px;
     border-radius: 12px;
     font-weight: 600;
 }
-
-/* =========================================
-   RESPONSIVE
-========================================= */
 
 @media (max-width: 768px) {
 
@@ -100,10 +76,6 @@
         font-size: 30px;
     }
 }
-
-/* =========================================
-   LOGIN PAGE
-========================================= */
 
 .login-container {
     min-height: 100vh;
@@ -123,10 +95,6 @@
     backdrop-filter: blur(10px);
 }
 
-/* =========================================
-   TITLES
-========================================= */
-
 .login-title {
     font-size: 40px;
     font-weight: 700;
@@ -137,10 +105,6 @@
     color: #6c757d;
     font-size: 16px;
 }
-
-/* =========================================
-   INPUTS
-========================================= */
 
 .custom-input {
     border-radius: 14px;
@@ -154,10 +118,6 @@
         border-color: #0d6efd;
         box-shadow: 0 0 15px rgba(13, 110, 253, 0.2);
     }
-
-/* =========================================
-   BUTTON
-========================================= */
 
 .login-btn {
     background: linear-gradient(90deg, #0d6efd, #1e90ff);
@@ -175,10 +135,6 @@
         box-shadow: 0 10px 20px rgba(13, 110, 253, 0.3);
     }
 
-/* =========================================
-   LINKS
-========================================= */
-
 .login-links a {
     color: #0d6efd;
     text-decoration: none;
@@ -191,19 +147,11 @@
         text-decoration: underline;
     }
 
-/* =========================================
-   EXTERNAL LOGIN
-========================================= */
-
 .external-btn {
     height: 50px;
     border-radius: 12px;
     font-weight: 600;
 }
-
-/* =========================================
-   RESPONSIVE
-========================================= */
 
 @media (max-width: 768px) {
 
@@ -216,10 +164,6 @@
     }
 }
 
-/* =========================================
-   GLOBAL
-========================================= */
-
 body {
     margin: 0;
     padding: 0;
@@ -227,10 +171,6 @@ body {
     font-family: 'Segoe UI', sans-serif;
     color: #1c1c1c;
 }
-
-/* =========================================
-   HEADER / NAVBAR
-========================================= */
 
 .main-header {
     position: sticky;
@@ -258,10 +198,6 @@ body {
     letter-spacing: 1px;
 }
 
-/* =========================================
-   NAV LINKS
-========================================= */
-
 .navbar-nav .nav-link {
     color: white !important;
     font-weight: 500;
@@ -288,10 +224,6 @@ body {
     .navbar-nav .nav-link:hover::after {
         width: 100%;
     }
-
-/* =========================================
-   DROPDOWN
-========================================= */
 
 .dropdown-menu {
     border: none;
@@ -338,31 +270,6 @@ body {
     .footer-content p {
         opacity: 0.9;
     }
-
-.social-icons {
-    margin: 20px 0;
-}
-
-    .social-icons a {
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        width: 45px;
-        height: 45px;
-        margin: 0 8px;
-        border-radius: 50%;
-        background: rgba(255,255,255,0.15);
-        color: white;
-        font-size: 18px;
-        transition: 0.3s ease;
-        text-decoration: none;
-    }
-
-        .social-icons a:hover {
-            background: white;
-            color: #0d6efd;
-            transform: translateY(-4px);
-        }
 
 .login-partial a {
     color: white !important;
