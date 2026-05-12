@@ -2,19 +2,55 @@
     ViewData["Title"] = "Модели";
 }
 
-<div class="text-center">
-    <a asp-controller="Cars" asp-action="Index">
-
-        <div class="box">
-            <img class="vwLove" src="/imgs/img2.jpg" alt="Нови автомобили">
-            <p>Нови автомобили</p>
-        </div>
-    </a>
-
-    <a asp-controller="Cars" asp-action="Index">
-        <div class="box">
-            <img class="vwLove" src="/imgs/golfa.jpg" alt="Употребявани автомобили">
-            <p>Употребявани автомобили</p>
-        </div>
-    </a>
+<div class="models-page">
+    <div class="models-header text-center">
+        <h1 class="models-title">
+            Модели Volkswagen
+        </h1>
+        <p class="models-subtitle">
+            Избери между нови и употребявани автомобили
+        </p>
+    </div>
+    <div class="models-container">
+        <a asp-controller="Cars"
+           asp-action="Index"
+           asp-route-isNew="true"
+           class="model-link">
+            <div class="model-card">
+                <div class="model-image-wrapper">
+                    <img class="vw-image"
+                         src="/imgs/img2.jpg"
+                         alt="Нови автомобили">
+                </div>
+                <div class="model-content">
+                    <h3>
+                        Нови автомобили
+                    </h3>
+                    <p>
+                        Разгледай най-новите модели на Volkswagen
+                    </p>
+                </div>
+            </div>
+        </a>
+        <a asp-controller="Cars"
+           asp-action="Index"
+           asp-route-isNew="false"
+           class="model-link">
+            <div class="model-card">
+                <div class="model-image-wrapper">
+                    <img class="vw-image"
+                         src="/imgs/golfa.jpg"
+                         alt="Употребявани автомобили">
+                </div>
+                <div class="model-content">
+                    <h3>
+                        Употребявани автомобили
+                    </h3>
+                    <p>
+                        Качествени автомобили на отлични цени
+                    </p>
+                </div>
+            </div>
+        </a>
+    </div>
 </div>

@@ -1,42 +1,85 @@
-﻿<h1 class="text-center">Автомобили</h1>
+﻿<h1 class="cars-title text-center">
+    Автомобили
+</h1>
+
 @if (User.IsInRole("Admin"))
 {
-    <p class="text-center">
-    <a asp-action="Create" class="create-btn">Добави автомобил</a>
-</p>
+    <div class="text-center mb-5">
+        <a asp-action="Create"
+           class="create-btn">
+            Добави автомобил
+        </a>
+    </div>
 }
 
 <div class="cars-container">
+
     @foreach (var item in Model)
     {
         <div class="car-card">
-            <img src="@item.Image" alt="@item.CarModel" />
-
+            <div class="car-image-wrapper">
+                <img src="@item.Image"
+                     alt="@item.CarModel" />
+            </div>
             <div class="car-content">
-                <h3>@item.CarModel (@item.Year)</h3>
-                <p><strong>Гориво:</strong> @item.FuelTypes.Name</p>
-                <p><strong>Мощност:</strong> @item.Power к.с.</p>
-                <p><strong>Ускорение:</strong> @item.Acceleration н.м.</p>
-                <p><strong>Оборудване:</strong> @item.Equipments.Name</p>
-
+                <h3>
+                    @item.CarModel (@item.Year)
+                </h3>
+                <p>
+                    <strong>Гориво:</strong>
+                    @item.FuelTypes.Name
+                </p>
+                <p>
+                    <strong>Мощност:</strong>
+                    @item.Power к.с.
+                </p>
+                <p>
+                    <strong>Ускорение:</strong>
+                    @item.Acceleration н.м.
+                </p>
+                <p>
+                    <strong>Оборудване:</strong>
+                    @item.Equipments.Name
+                </p>
                 <div class="car-price">
-                    @item.Price лв.
+                    @item.Price евро.
                 </div>
             </div>
 
             <div class="car-actions">
                 @if (User.IsInRole("Admin"))
                 {
-                    <a asp-action="Edit" asp-route-id="@item.Id" class="edit">Edit</a>
-                    <a asp-action="Delete" asp-route-id="@item.Id" class="delete">Delete</a>
+                    <a asp-action="Edit"
+                       asp-route-id="@item.Id"
+                       class="edit-btn">
+                        Редактирай
+                    </a>
+                    <a asp-action="Delete"
+                       asp-route-id="@item.Id"
+                       class="delete-btn">
+                        Изтрий
+                    </a>
                 }
-                <form asp-controller="Carts" asp-action="CreateId" asp-route-carId="@item.Id" method="post">
-                    <input type="hidden" name="carId" value="@item.Id" />
-                    <button type="submit" class="btn btn-primary">
+                @if (User.IsInRole("Client"))
+                {
+                    <form asp-controller="Carts"
+                      asp-action="CreateId"
+                      asp-route-carId="@item.Id"
+                      method="post">
+                    <input type="hidden"
+                           name="carId"
+                           value="@item.Id" />
+                    <button type="submit"
+                            class="order-btn">
                         Поръчай
                     </button>
                 </form>
-                <a asp-action="Details" asp-route-id="@item.Id" class="details">Details</a>
+                }                
+                <a asp-action="Details"
+                   asp-route-id="@item.Id"
+                   class="details-btn">
+                    Детайли
+                </a>
             </div>
         </div>
     }

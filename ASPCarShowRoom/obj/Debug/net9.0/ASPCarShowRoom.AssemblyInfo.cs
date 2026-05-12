@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ASPCarShowRoom")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6eb3035fb1c21ad5f9fe9a07962a57314640aa06")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c2ac664f43c828db74cc08ce1a06702b23da1aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("ASPCarShowRoom")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ASPCarShowRoom")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

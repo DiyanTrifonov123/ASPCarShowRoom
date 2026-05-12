@@ -1,84 +1,121 @@
 ﻿@model ASPCarShowRoom.Models.Car
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Детайли за автомобил";
 }
 
-<h1>Details</h1>
+<div class="car-details-page">
+    <div class="car-details-header text-center">
+        <h1 class="car-details-title">
+            @Model.CarModel
+        </h1>
+        <p class="car-details-subtitle">
+            Подробна информация за автомобила
+        </p>
+    </div>
+    <div class="car-details-card">
+        <div class="car-image-section">
+            <img src="@Model.Image"
+                 alt="@Model.CarModel"
+                 class="car-details-image" />
+        </div>
+        <div class="car-info-section">
+            <div class="info-row">
+                <span class="info-label">
+                    Модел
+                </span>
+                <span class="info-value">
+                    @Model.CarModel
+                </span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">
+                    Описание
+                </span>
+                <span class="info-value">
+                    @Model.Description
+                </span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">
+                    Година
+                </span>
+                <span class="info-value">
+                    @Model.Year
+                </span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">
+                    Оборудване
+                </span>
+                <span class="info-value">
+                    @Model.Equipments.Name
+                </span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">
+                    Състояние
+                </span>
+                <span class="info-value">
 
-<div>
-    <h4>Car</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CarModel)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CarModel)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Description)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Description)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Year)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Year)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Equipments)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Equipments.Name)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IsNew)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.IsNew)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.FuelTypes)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.FuelTypes.Name)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Power)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Power)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Acceleration)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Acceleration)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Image)
-        </dt>
-        <dd class = "col-sm-10">
-            <img src="@Html.DisplayFor(model => model.Image)" width="100px" />
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Price)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Price)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.RegisterOn)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.RegisterOn)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+                    @(Model.IsNew ? "Нов автомобил" : "Употребяван автомобил")
+
+                </span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">
+                    Вид гориво
+                </span>
+                <span class="info-value">
+                    @Model.FuelTypes.Name
+                </span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">
+                    Мощност
+                </span>
+                <span class="info-value">
+                    @Model.Power к.с.
+                </span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">
+                    Ускорение
+                </span>
+                <span class="info-value">
+                    @Model.Acceleration н.м.
+                </span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">
+                    Цена
+                </span>
+                <span class="car-price">
+                    @Model.Price лв.
+                </span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">
+                    Добавен на
+                </span>
+                <span class="info-value">
+                    @Model.RegisterOn
+                </span>
+            </div>
+            <div class="car-details-actions">
+                @if (User.IsInRole("Admin"))
+                {
+                    <a asp-action="Edit"
+                       asp-route-id="@Model?.Id"
+                       class="edit-btn">
+                        Редактирай
+                    </a>
+                }
+                <a asp-action="Index"
+                   class="back-btn">
+                    Назад към автомобилите
+                </a>
+            </div>
+        </div>
+    </div>
 </div>

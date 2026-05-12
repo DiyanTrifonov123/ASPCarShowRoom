@@ -1,53 +1,74 @@
 ﻿@model IEnumerable<ASPCarShowRoom.Models.Cart>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Поръчки";
 }
 
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Clients)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Cars)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Message)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.RegisterOn)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Clients.UserName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Cars.CarModel)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Message)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.RegisterOn)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div class="orders-page">
+    <div class="orders-header text-center">
+        <h1 class="orders-title">
+            Моите поръчки
+        </h1>
+        <p class="orders-subtitle">
+            Преглед на всички направени заявки за автомобили
+        </p>
+    </div>
+   @*  <div class="text-center mb-5">
+        <a asp-action="Create"
+           class="create-order-btn">
+            Нова поръчка
+        </a> *@
+    </div>
+    <div class="orders-container">
+        @foreach (var item in Model)
+        {
+            <div class="order-card">
+                <div class="order-top">
+                    <div>
+                        <h3>
+                            @item.Cars.CarModel
+                        </h3>
+                        <span class="order-date">
+                            @item.RegisterOn
+                        </span>
+                    </div>
+                </div>
+                <div class="order-body">
+                    <p>
+                        <strong>Клиент:</strong>
+                        @item.Clients.UserName
+                    </p>
+                    <p>
+                        <strong>Автомобил:</strong>
+                        @item.Cars.CarModel
+                    </p>
+                    <p>
+                        <strong>Съобщение:</strong>
+                        @item.Message
+                    </p>
+                </div>
+                <div class="order-actions">
+                <a asp-action="Details"
+                   asp-route-id="@item.Id"
+                   class="details-btn">
+                    Детайли
+                </a>
+                @if (User.IsInRole("Admin"))
+                {
+                    <a asp-action="Edit"
+                       asp-route-id="@item.Id"
+                       class="edit-btn">
+                        Редактирай
+                    </a>
+                    
+                    <a asp-action="Delete"
+                       asp-route-id="@item.Id"
+                       class="delete-btn">
+                        Изтрий
+                    </a>
+                }                    
+                </div>
+            </div>
+        }
+    </div>
+</div>
