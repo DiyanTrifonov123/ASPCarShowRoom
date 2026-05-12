@@ -1,0 +1,124 @@
+﻿@{
+    ViewData["Title"] = "Галерия";
+}
+
+<div class="gallery-page">
+    <div class="gallery-header text-center">
+        <h1 class="gallery-title">
+            Галерия Volkswagen
+        </h1>
+        <p class="gallery-subtitle">
+            Разгледай нашите най-нови модели и автомобилни визии
+        </p>
+    </div>
+    <div class="gallery-filters text-center mb-5">
+        <button class="filter-btn active"
+                onclick="filterCars('all')">
+            Всички
+        </button>
+        <button class="filter-btn"
+                onclick="filterCars('new')">
+            Нови автомобили
+        </button>
+        <button class="filter-btn"
+                onclick="filterCars('used')">
+            Употребявани
+        </button>
+        <button class="filter-btn"
+                onclick="filterCars('sport')">
+            Спортни
+        </button>
+    </div>
+
+    <div class="gallery-grid">
+        <div class="gallery-card new">
+            <img src="/imgs/car1.jpg"
+                 alt="Volkswagen Golf" />
+            <div class="gallery-info">
+                <h4>Volkswagen Golf 8</h4>
+                <p>
+                    Модерен хечбек с иновативен дизайн.
+                </p>
+            </div>
+        </div>
+
+        <div class="gallery-card sport">
+            <img src="/imgs/car2.jpg"
+                 alt="Volkswagen Arteon" />
+            <div class="gallery-info">
+                <h4>Volkswagen Arteon</h4>
+                <p>
+                    Луксозен спортен седан.
+                </p>
+            </div>
+        </div>
+
+        <div class="gallery-card used">
+            <img src="/imgs/car3.jpg"
+                 alt="Volkswagen Passat" />
+            <div class="gallery-info">
+                <h4>Volkswagen Passat</h4>
+                <p>
+                    Надежден семеен автомобил.
+                </p>
+            </div>
+        </div>
+
+        <div class="gallery-card new">
+            <img src="/imgs/car4.jpg"
+                 alt="Volkswagen Tiguan" />
+            <div class="gallery-info">
+                <h4>Volkswagen Tiguan</h4>
+                <p>
+                    SUV с премиум комфорт.
+                </p>
+            </div>
+        </div>
+
+        <div class="gallery-card sport">
+            <img src="/imgs/car5.jpg"
+                 alt="Volkswagen GTI" />
+            <div class="gallery-info">
+                <h4>Volkswagen GTI</h4>
+                <p>
+                    Спортна динамика и мощност.
+                </p>
+            </div>
+        </div>
+
+        <div class="gallery-card used">
+            <img src="/imgs/car6.jpg"
+                 alt="Volkswagen Touareg" />
+            <div class="gallery-info">
+                <h4>Volkswagen Touareg</h4>
+                <p>
+                    Луксозен SUV с висока проходимост.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function filterCars(category) {
+            const cards = document.querySelectorAll('.gallery-card');
+            const buttons = document.querySelectorAll('.filter-btn');
+            buttons.forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            cards.forEach(card => {
+                if (category === 'all') {
+                    card.style.display = 'block';
+                }
+                else if (card.classList.contains(category)) {
+                    card.style.display = 'block';
+                }
+                else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+}
