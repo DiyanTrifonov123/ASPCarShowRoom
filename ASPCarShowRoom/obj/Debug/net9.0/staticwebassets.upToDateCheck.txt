@@ -1,9 +1,16 @@
+wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\imgs\arteon.jpg
+wwwroot\imgs\golf8.jpg
 wwwroot\imgs\golfa.jpg
+wwwroot\imgs\golfgti.jpg
 wwwroot\imgs\img1.png
 wwwroot\imgs\img11.jpg
 wwwroot\imgs\img2.jpg
 wwwroot\imgs\logo.png
+wwwroot\imgs\passatb6.jpg
+wwwroot\imgs\tiguan.jpg
+wwwroot\imgs\touareg.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -65,7 +72,7 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\css\site.css
+C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\wwwroot\css\site.css
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\wwwroot\favicon.ico
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\wwwroot\js\site.js
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -127,4 +134,3 @@ C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\wwwroot\lib\jquery\dis
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\wwwroot\lib\jquery\LICENSE.txt
-C:\Програмиране\ASPCarShowRoom\ASPCarShowRoom\wwwroot\css\site.css

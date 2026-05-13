@@ -1243,3 +1243,132 @@ body {
         height: 300px;
     }
 }
+
+.delete-page {
+    padding: 50px 20px;
+}
+
+.delete-header {
+    margin-bottom: 50px;
+}
+
+.delete-title {
+    font-size: 52px;
+    font-weight: 700;
+    color: #0b3d91;
+    margin-bottom: 15px;
+}
+
+.delete-subtitle {
+    font-size: 18px;
+    color: #6c757d;
+}
+
+.delete-card {
+    max-width: 850px;
+    margin: auto;
+    background: white;
+    border-radius: 28px;
+    padding: 40px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+    transition: 0.4s ease;
+}
+
+    .delete-card:hover {
+        box-shadow: 0 20px 45px rgba(0,0,0,0.12);
+    }
+
+.delete-warning {
+    background: #fff3cd;
+    color: #856404;
+    padding: 18px 22px;
+    border-radius: 16px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    border: 1px solid #ffe69c;
+}
+
+.delete-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #edf2f7;
+}
+
+.info-label {
+    font-weight: 700;
+    color: #0b3d91;
+    font-size: 17px;
+}
+
+.info-value {
+    color: #495057;
+    text-align: right;
+    max-width: 60%;
+}
+
+.delete-actions {
+    margin-top: 40px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.delete-btn,
+.cancel-btn {
+    padding: 14px 24px;
+    border-radius: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background: linear-gradient(90deg, #dc3545, #b02a37);
+    color: white;
+}
+
+    .delete-btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba(220,53,69,0.3);
+    }
+
+.cancel-btn {
+    background: #f1f3f5;
+    color: #212529;
+}
+
+    .cancel-btn:hover {
+        background: #212529;
+        color: white;
+    }
+
+@media (max-width: 768px) {
+
+    .delete-title {
+        font-size: 36px;
+    }
+
+    .delete-card {
+        padding: 25px;
+    }
+
+    .info-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .info-value {
+        max-width: 100%;
+        text-align: left;
+    }
+}

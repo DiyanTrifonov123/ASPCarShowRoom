@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9C5561-3D1E-4825-8B60-4B3A865D4D5F}|ASPCarShowRoom\\ASPCarShowRoom.csproj|c:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\aspcarshowroom\\aspcarshowroom\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B9C5561-3D1E-4825-8B60-4B3A865D4D5F}|ASPCarShowRoom\\ASPCarShowRoom.csproj|solutionrelative:aspcarshowroom\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9C5561-3D1E-4825-8B60-4B3A865D4D5F}|ASPCarShowRoom\\ASPCarShowRoom.csproj|c:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\aspcarshowroom\\aspcarshowroom\\views\\carts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B9C5561-3D1E-4825-8B60-4B3A865D4D5F}|ASPCarShowRoom\\ASPCarShowRoom.csproj|solutionrelative:aspcarshowroom\\views\\carts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9C5561-3D1E-4825-8B60-4B3A865D4D5F}|ASPCarShowRoom\\ASPCarShowRoom.csproj|c:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\aspcarshowroom\\aspcarshowroom\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B9C5561-3D1E-4825-8B60-4B3A865D4D5F}|ASPCarShowRoom\\ASPCarShowRoom.csproj|solutionrelative:aspcarshowroom\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9C5561-3D1E-4825-8B60-4B3A865D4D5F}|ASPCarShowRoom\\ASPCarShowRoom.csproj|c:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\aspcarshowroom\\aspcarshowroom\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B9C5561-3D1E-4825-8B60-4B3A865D4D5F}|ASPCarShowRoom\\ASPCarShowRoom.csproj|solutionrelative:aspcarshowroom\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\ASPCarShowRoom\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ASPCarShowRoom\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\ASPCarShowRoom\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ASPCarShowRoom\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAM4EAAAAAAAAAAAuwNwEAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-13T12:13:53.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\ASPCarShowRoom\\Views\\Carts\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ASPCarShowRoom\\Views\\Carts\\Delete.cshtml",
+              "ToolTip": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\ASPCarShowRoom\\Views\\Carts\\Delete.cshtml",
+              "RelativeToolTip": "ASPCarShowRoom\\Views\\Carts\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-13T12:10:52.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\ASPCarShowRoom\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "ASPCarShowRoom\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\ASPCarShowRoom\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "ASPCarShowRoom\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-13T12:07:29.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\ASPCarShowRoom\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ASPCarShowRoom\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435\\ASPCarShowRoom\\ASPCarShowRoom\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ASPCarShowRoom\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-13T12:07:05.589Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
