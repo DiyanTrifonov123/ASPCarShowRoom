@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ASPCarShowRoom.Data;
 using ASPCarShowRoom.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ASPCarShowRoom.Controllers
 {
