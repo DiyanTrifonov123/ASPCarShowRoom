@@ -6,9 +6,19 @@
 
 <div class="orders-page">
     <div class="orders-header text-center">
-        <h1 class="orders-title">
+        @if (User.IsInRole("Client"))
+        {
+            <h1 class="orders-title">
             Моите поръчки
-        </h1>
+            </h1>
+        }
+        else
+        {
+            <h1 class="orders-title">
+                Поръчки
+            </h1>
+        }
+
         <p class="orders-subtitle">
             Преглед на всички направени заявки за автомобили
         </p>
